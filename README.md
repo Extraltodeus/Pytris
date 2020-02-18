@@ -25,3 +25,7 @@ Escape : Quit
 ## Additional info :
 The tetris.py file contains the Tetris class, which could be used to render a Tetris game in any way you want.
 The pytris.py file is a quickly done script using pygame that uses this class.
+
+## A screenshot :
+
+![](https://i.imgur.com/C4kiFO9.png)
