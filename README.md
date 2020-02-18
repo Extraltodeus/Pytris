@@ -1,5 +1,5 @@
 # Pytris
-A tetris I made some time ago. It has all the functionnalities of a modern Tetris :)
+A tetris I made some time ago. It has all the functionnalities of a modern Tetris
 
 ## Dependancies :
 pygame : pip install pygame
