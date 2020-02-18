@@ -64,7 +64,7 @@ surf1.set_alpha(125)
 def print_stats():
     now = datetime.now().strftime("%H : %M : %S")
     pygame.draw.rect(screen,BLACK,(prevX-int(ym/2),prevY+4*cell*5-int(cell/1.5),300,tp.font_size*4))
-    tp.print(screen,"Lignes        : "+str(t.lines),prevX,prevY+4*cell*5-int(cell/2),0)
+    tp.print(screen,"Lines          : "+str(t.lines),prevX,prevY+4*cell*5-int(cell/2),0)
     tp.print(screen,"Score         : "+str(t.score),prevX,prevY+4*cell*5-int(cell/2),1)
     tp.print(screen,"Max score : "+str(t.max_score),prevX,prevY+4*cell*5-int(cell/2),2)
     tp.print(screen,now,prevX,prevY+4*cell*5-int(cell/2),3)
@@ -214,5 +214,5 @@ def run_game():
         pygame.display.update()
         clock.tick(fps)
 
-run_game()
-exit()
+if __name__ == '__main__':
+    run_game()
