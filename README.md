@@ -6,14 +6,12 @@ pygame : pip install pygame
 
 numpy  : pip install numpy
 
-How to start it :
-
+## How to start it :
 python3 pytris.py
 
 or on Windows you can simply double-click on pytris.py
 
 ## Controls :
-
 A : Swap current tetromino with reserve
 
 S : Rotate left
@@ -40,5 +38,4 @@ The tetris.py file contains the Tetris class, which could be used to render a Te
 The pytris.py file is a quickly done script using pygame that uses this class.
 
 ## A screenshot :
-
 ![](https://i.imgur.com/C4kiFO9.png)
