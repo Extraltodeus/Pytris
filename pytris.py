@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from os import environ, system
 environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame

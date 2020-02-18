@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from os import system
 from random import shuffle
 from math import floor,ceil
